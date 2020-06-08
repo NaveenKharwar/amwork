@@ -17,9 +17,26 @@
       padding-left: 2%;
     }
   }
+  #services {
+      img {
+          margin-bottom: 20px;
+      }
+  }
 }
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
+  header {
+    nav {
+        .navbar-nav {
+            flex-direction: row;
+            justify-content: space-around;;
+        }
+    }
+    .navbar-toggler {
+      border-radius: 0;
+      border: 1px solid black;
+    }
+  }
   #feature {
     .side {
       width: 100%;
@@ -30,6 +47,20 @@
       clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 100% 0);
     }
   }
+  header,
+  #usp {
+    .jumbotron {
+        height: 100vh;
+        display: flex;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+    }
+  }
 }
-
-

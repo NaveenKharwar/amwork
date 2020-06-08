@@ -1,12 +1,17 @@
+#intro {
+  padding: 3rem 0;
+}
+
 #feature {
   background: url("../assets/header.jpg");
   background-size: cover;
-  height: 300px;
+  color: #fff;
+  height: 500px;
   .side {
     background: $primary_color;
     width: 65%;
     min-height: 100%;
-    padding-left: 180px;
+    padding-left: 20%;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 85% 0);
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 85% 0);
     display: flex;
@@ -15,18 +20,47 @@
 }
 
 #services {
-  .section-btn {
-    background-color: $primary_color;
-    color: white;
-    display: inline-block;
-    padding: 15px 50px;
-    text-transform: uppercase;
-
+  padding: 4rem 0;
+  img {
+      border-radius: 1.25rem;
+    }
+    .section-btn {
+        background-color: $primary_color;
+        color: white;
+        display: inline-block;
+        padding: 15px 50px;
+        text-transform: uppercase;
   }
 }
 
-#map {
-    img {
-        margin: 0;
+#usp {
+    .jumbotron {
+        background: linear-gradient(
+            0deg,
+        rgba(16, 16, 16, 0.6),
+        rgba(16, 16, 16, 0.6)
+      ),
+      url("../assets/usp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    height: 100%;
+    padding: 8% 0;
+    margin: 0;
+}
+#grid-usp {
+    h4 {
+        color: $primary_color;
+        font-weight: 700;
     }
+    ul {
+        padding-left: 15px;
+        margin-top: 20px;
+        li {
+            margin-top: 5px;
+        }
+    }
+    padding: 4rem 0;
+  }
 }

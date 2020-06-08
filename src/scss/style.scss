@@ -5,9 +5,15 @@
 @import "partial/header";
 @import "partial/sections";
 @import "partial/footer";
-
+@import "partial/responsive";
 
 // For sample map remove it when you are using actual MAP API
 #error_ {
- display: none;   
+  display: none;
+}
+
+#map {
+  img {
+    display: none;
+  }
 }

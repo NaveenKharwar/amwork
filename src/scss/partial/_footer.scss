@@ -1,6 +1,7 @@
 footer {
   background-color: $primary_color;
   padding: 5rem 0;
+  position: relative;
   form {
     .form-control {
       border-radius: 0;
@@ -17,5 +18,18 @@ footer {
       padding: 15px 50px;
       text-transform: uppercase;
     }
+  }
+  img.logo {
+    height: auto;
+    position: absolute;
+    top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 50%;
   }
 }

@@ -1,1 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
+
+@import "partial/color";
+@import "partial/base";
+@import "partial/header";
+@import "partial/sections";
+@import "partial/footer";
+
+
+// For sample map remove it when you are using actual MAP API
+#error_ {
+ display: none;   
+}

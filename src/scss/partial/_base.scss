@@ -1,0 +1,10 @@
+@media (min-width: 576px) {
+    .py-10 {
+        padding-top: ($spacer * 10);
+        padding-bottom: ($spacer * 10);
+    }
+}
+
+.section-title {
+    color: $primary_color;
+}

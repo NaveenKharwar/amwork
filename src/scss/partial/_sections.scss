@@ -1,0 +1,32 @@
+#feature {
+  background: url("../assets/header.jpg");
+  background-size: cover;
+  height: 300px;
+  .side {
+    background: $primary_color;
+    width: 65%;
+    min-height: 100%;
+    padding-left: 180px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 85% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 85% 0);
+    display: flex;
+    align-items: center;
+  }
+}
+
+#services {
+  .section-btn {
+    background-color: $primary_color;
+    color: white;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+
+  }
+}
+
+#map {
+    img {
+        margin: 0;
+    }
+}

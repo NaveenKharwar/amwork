@@ -1,0 +1,21 @@
+footer {
+  background-color: $primary_color;
+  padding: 5rem 0;
+  form {
+    .form-control {
+      border-radius: 0;
+      border: transparent;
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgb(52, 49, 38);
+      }
+    }
+    .submit-btn {
+      background-color: black;
+      border: none;
+      color: white;
+      display: inline-block;
+      padding: 15px 50px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -5,5 +5,5 @@ mix.js('src/js/script.js', 'dist/js/')
     .options({
         processCssUrls: false
     })
-    .copy('src/assets/**/*', 'dist/assets', false);
+    .copy('src/assets/**/*', 'dist/assets', false)
     .disableNotifications();

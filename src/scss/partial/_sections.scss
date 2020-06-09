@@ -1,5 +1,9 @@
 #intro {
-  padding: 3rem 0;
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+  p {
+      margin-bottom: 0;
+  }
 }
 
 #feature {
@@ -17,12 +21,20 @@
     display: flex;
     align-items: center;
     .feature-slice {
-        h1 {
-            font-weight: 600;
+      h1 {
+          font-weight: 600;
+          margin-bottom: 2rem;
+      }
+      ul {
+        padding-left: 0;
+        li {
+            list-style: none;
+            &:before {
+              content: '- ';
+              font-weight: bold;
+          }
         }
-        ul {
-            padding-left: 15px;
-        }
+      }
     }
   }
 }
@@ -30,26 +42,26 @@
 #services {
   padding: 4rem 0;
   img {
-      border-radius: 1.25rem;
-    }
-    .section-btn {
-        background-color: $primary_color;
-        color: white;
-        display: inline-block;
-        padding: 15px 50px;
-        text-transform: uppercase;
-        text-decoration: none;
+    border-radius: 1.25rem;
+  }
+  .section-btn {
+    background-color: $primary_color;
+    color: white;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
   }
   h2 {
-      color: $primary_color;
-      font-weight: 600;
+    color: $primary_color;
+    font-weight: 600;
   }
 }
 
 #usp {
-    .jumbotron {
-        background: linear-gradient(
-            0deg,
+  .jumbotron {
+    background: linear-gradient(
+        0deg,
         rgba(16, 16, 16, 0.6),
         rgba(16, 16, 16, 0.6)
       ),
@@ -61,21 +73,21 @@
     height: 100%;
     padding: 8% 0;
     margin: 0;
-    h1{
-        font-weight: 600;
+    h1 {
+      font-weight: 600;
     }
-}
-#grid-usp {
+  }
+  #grid-usp {
     h4 {
-        color: $primary_color;
-        font-weight: 700;
+      color: $primary_color;
+      font-weight: 700;
     }
     ul {
-        padding-left: 15px;
-        margin-top: 20px;
-        li {
-            margin-top: 5px;
-        }
+      padding-left: 15px;
+      margin-top: 20px;
+      li {
+        margin-top: 5px;
+      }
     }
     padding: 4rem 0;
   }

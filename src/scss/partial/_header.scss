@@ -1,10 +1,10 @@
 header {
-    nav {
-        .nav-link {
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
+  nav {
+    .nav-link {
+      font-weight: 600;
+      font-size: 0.9rem;
     }
+  }
   .jumbotron {
     background: linear-gradient(
         0deg,
@@ -13,8 +13,23 @@ header {
       ),
       url("../assets/header.jpg");
     background-size: cover;
-    height: 100%;
     border-radius: 0;
+    height: 100%;
+    margin-bottom: 0;
+    h1 {
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    ul {
+      padding-left: 0;
+      li {
+          list-style: none;
+          &:before {
+            content: '- ';
+            font-weight: bold;
+        }
+      }
+    }
   }
   .navbar-brand {
     img {
